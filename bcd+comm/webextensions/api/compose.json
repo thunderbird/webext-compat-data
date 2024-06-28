@@ -1,0 +1,450 @@
+{
+    "ComposeAttachment": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "ComposeDetails": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "ComposeDictionaries": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "ComposeRecipient": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "ComposeRecipientList": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "ComposeState": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "CustomHeader": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "EncryptionPropertiesOpenPGP": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "EncryptionPropertiesSMIME": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "FileAttachment": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "__compat": {
+        "support": {
+            "thunderbird": {
+                "version_added": true
+            }
+        }
+    },
+    "addAttachment": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "beginForward": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "beginNew": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "beginReply": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "getActiveDictionaries": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "getAttachmentFile": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "getComposeDetails": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "getComposeState": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "listAttachments": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "onActiveDictionariesChanged": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        },
+        "tab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            },
+            "selected": {
+                "__compat": {
+                    "support": {
+                        "thunderbird": {
+                            "version_added": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "onAfterSave": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        },
+        "tab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            },
+            "selected": {
+                "__compat": {
+                    "support": {
+                        "thunderbird": {
+                            "version_added": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "onAfterSend": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        },
+        "tab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            },
+            "selected": {
+                "__compat": {
+                    "support": {
+                        "thunderbird": {
+                            "version_added": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "onAttachmentAdded": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        },
+        "tab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            },
+            "selected": {
+                "__compat": {
+                    "support": {
+                        "thunderbird": {
+                            "version_added": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "onAttachmentRemoved": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        },
+        "tab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            },
+            "selected": {
+                "__compat": {
+                    "support": {
+                        "thunderbird": {
+                            "version_added": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "onBeforeSend": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        },
+        "tab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            },
+            "selected": {
+                "__compat": {
+                    "support": {
+                        "thunderbird": {
+                            "version_added": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "onComposeStateChanged": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        },
+        "tab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            },
+            "selected": {
+                "__compat": {
+                    "support": {
+                        "thunderbird": {
+                            "version_added": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "onIdentityChanged": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        },
+        "tab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            },
+            "selected": {
+                "__compat": {
+                    "support": {
+                        "thunderbird": {
+                            "version_added": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "removeAttachment": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "saveMessage": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "sendMessage": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "setActiveDictionaries": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "setComposeDetails": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "updateAttachment": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    }
+}

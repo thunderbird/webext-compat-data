@@ -1,0 +1,500 @@
+{
+    "DefaultSuggestResult": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        }
+    },
+    "DescriptionStyleType": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        }
+    },
+    "OnInputEnteredDisposition": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/OnInputEnteredDisposition",
+            "source_file": "webextensions/api/omnibox.json",
+            "support": {
+                "chrome": {
+                    "version_added": "44"
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "31"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "currentTab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "newBackgroundTab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "newForegroundTab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "SuggestResult": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/SuggestResult",
+            "source_file": "webextensions/api/omnibox.json",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "notes": "'description' is interpreted as plain text, and XML markup is not recognized.",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "content": {
+            "__compat": {
+                "source_file": "webextensions/api/omnibox.json",
+                "support": {
+                    "chrome": {
+                        "version_added": "9"
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "52"
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": "15"
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "deletable": {
+            "__compat": {
+                "source_file": "webextensions/api/omnibox.json",
+                "support": {
+                    "chrome": {
+                        "version_added": "63"
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "109"
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": "50"
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "description": {
+            "__compat": {
+                "source_file": "webextensions/api/omnibox.json",
+                "support": {
+                    "chrome": {
+                        "version_added": "9"
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "52"
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": "15"
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "descriptionStyles": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "descriptionStylesRaw": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/omnibox",
+        "source_file": "webextensions/api/omnibox.json",
+        "support": {
+            "chrome": {
+                "version_added": "9"
+            },
+            "edge": {
+                "version_added": "79"
+            },
+            "firefox": {
+                "version_added": "52"
+            },
+            "firefox_android": {
+                "version_added": false
+            },
+            "opera": {
+                "version_added": "15"
+            },
+            "safari": {
+                "version_added": false
+            },
+            "safari_ios": {
+                "version_added": false
+            },
+            "thunderbird": {
+                "version_added": false
+            }
+        }
+    },
+    "onDeleteSuggestion": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onDeleteSuggestion",
+            "source_file": "webextensions/api/omnibox.json",
+            "support": {
+                "chrome": {
+                    "version_added": "63"
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "109"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "50"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "text": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "onInputCancelled": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputCancelled",
+            "source_file": "webextensions/api/omnibox.json",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        }
+    },
+    "onInputChanged": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputChanged",
+            "source_file": "webextensions/api/omnibox.json",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "suggest": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "text": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "onInputEntered": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputEntered",
+            "source_file": "webextensions/api/omnibox.json",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "disposition": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "text": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "onInputStarted": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputStarted",
+            "source_file": "webextensions/api/omnibox.json",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        }
+    },
+    "setDefaultSuggestion": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/setDefaultSuggestion",
+            "source_file": "webextensions/api/omnibox.json",
+            "support": {
+                "chrome": {
+                    "version_added": "9"
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "notes": "'description' is interpreted as plain text, and XML markup is not recognized.",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "15"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "suggestion": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    }
+}

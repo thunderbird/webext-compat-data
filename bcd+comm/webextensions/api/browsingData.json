@@ -1,0 +1,1040 @@
+{
+    "DataTypeSet": {
+        "cache": {
+            "__compat": {
+                "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/DataTypeSet",
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "53"
+                    },
+                    "firefox_android": [
+                        {
+                            "version_added": "85"
+                        },
+                        {
+                            "version_added": "56",
+                            "version_last": "68",
+                            "version_removed": "79"
+                        }
+                    ],
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "53"
+                    }
+                }
+            }
+        },
+        "cookies": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "53"
+                    },
+                    "firefox_android": [
+                        {
+                            "version_added": "85"
+                        },
+                        {
+                            "version_added": "56",
+                            "version_last": "68",
+                            "version_removed": "79"
+                        }
+                    ],
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "53"
+                    }
+                }
+            }
+        },
+        "downloads": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "53"
+                    },
+                    "firefox_android": [
+                        {
+                            "version_added": "85"
+                        },
+                        {
+                            "version_added": "56",
+                            "version_last": "68",
+                            "version_removed": "79"
+                        }
+                    ],
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "53"
+                    }
+                }
+            }
+        },
+        "fileSystems": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": false
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "formData": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "53"
+                    },
+                    "firefox_android": [
+                        {
+                            "version_added": "85"
+                        },
+                        {
+                            "version_added": "56",
+                            "version_last": "68",
+                            "version_removed": "79"
+                        }
+                    ],
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "53"
+                    }
+                }
+            }
+        },
+        "history": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "53"
+                    },
+                    "firefox_android": [
+                        {
+                            "version_added": "85"
+                        },
+                        {
+                            "version_added": "56",
+                            "version_last": "68",
+                            "version_removed": "79"
+                        }
+                    ],
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "53"
+                    }
+                }
+            }
+        },
+        "indexedDB": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "57"
+                    },
+                    "firefox_android": {
+                        "version_added": "85"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "57"
+                    }
+                }
+            }
+        },
+        "localStorage": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "57"
+                    },
+                    "firefox_android": {
+                        "version_added": "85"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "57"
+                    }
+                }
+            }
+        },
+        "passwords": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "53"
+                    },
+                    "firefox_android": {
+                        "version_added": "85"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "53"
+                    }
+                }
+            }
+        },
+        "pluginData": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "53"
+                    },
+                    "firefox_android": {
+                        "version_added": "85"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "53"
+                    }
+                }
+            }
+        },
+        "serverBoundCertificates": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": false
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "serviceWorkers": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "53"
+                    },
+                    "firefox_android": {
+                        "version_added": "85"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "53"
+                    }
+                }
+            }
+        }
+    },
+    "RemovalOptions": {
+        "cookieStoreId": {
+            "__compat": {
+                "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/RemovalOptions",
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": false
+                    },
+                    "edge": {
+                        "version_added": false
+                    },
+                    "firefox": {
+                        "version_added": "84"
+                    },
+                    "firefox_android": {
+                        "notes": "This option is currently limited to the <code>firefox-default</code> and <code>firefox-private</code> values.",
+                        "version_added": "84"
+                    },
+                    "opera": {
+                        "version_added": false
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "84"
+                    }
+                }
+            }
+        },
+        "hostnames": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": false
+                    },
+                    "edge": {
+                        "version_added": false
+                    },
+                    "firefox": {
+                        "notes": [
+                            "From Firefox 56 supports the specification of hostnames for the deletion of cookies and local storage items.",
+                            "From Firefox 77 also supports the specification of hostnames for the deletion of service worker and indexedDB items."
+                        ],
+                        "version_added": "56"
+                    },
+                    "firefox_android": {
+                        "version_added": "85"
+                    },
+                    "opera": {
+                        "version_added": false
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "56"
+                    }
+                }
+            }
+        },
+        "originTypes": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": false
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            },
+            "extension": {
+                "__compat": {
+                    "source_file": "webextensions/api/browsingData.json",
+                    "support": {
+                        "chrome": {
+                            "version_added": true
+                        },
+                        "edge": {
+                            "version_added": "79"
+                        },
+                        "firefox": {
+                            "version_added": false
+                        },
+                        "firefox_android": {
+                            "version_added": false
+                        },
+                        "opera": {
+                            "version_added": true
+                        },
+                        "safari": {
+                            "version_added": false
+                        },
+                        "safari_ios": {
+                            "version_added": false
+                        },
+                        "thunderbird": {
+                            "version_added": false
+                        }
+                    }
+                }
+            },
+            "protectedWeb": {
+                "__compat": {
+                    "source_file": "webextensions/api/browsingData.json",
+                    "support": {
+                        "chrome": {
+                            "version_added": true
+                        },
+                        "edge": {
+                            "version_added": "79"
+                        },
+                        "firefox": {
+                            "version_added": false
+                        },
+                        "firefox_android": {
+                            "version_added": false
+                        },
+                        "opera": {
+                            "version_added": true
+                        },
+                        "safari": {
+                            "version_added": false
+                        },
+                        "safari_ios": {
+                            "version_added": false
+                        },
+                        "thunderbird": {
+                            "version_added": false
+                        }
+                    }
+                }
+            }
+        },
+        "since": {
+            "__compat": {
+                "source_file": "webextensions/api/browsingData.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "notes": "<code>since</code> is not supported with the following data types: <code>cache</code>, <code>indexedDB</code>, <code>localStorage</code>, and <code>serviceWorkers</code>.",
+                        "version_added": "53"
+                    },
+                    "firefox_android": [
+                        {
+                            "notes": "<code>since</code> is not supported with the following data types: <code>cache</code>, <code>indexedDB</code>, <code>localStorage</code>, and <code>serviceWorkers</code>.",
+                            "version_added": "85"
+                        },
+                        {
+                            "notes": "<code>since</code> is not supported with the following data types: <code>cache</code>, <code>indexedDB</code>, <code>localStorage</code>, and <code>serviceWorkers</code>.",
+                            "version_added": "56",
+                            "version_last": "68",
+                            "version_removed": "79"
+                        }
+                    ],
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "53"
+                    }
+                }
+            }
+        }
+    },
+    "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData",
+        "source_file": "webextensions/api/browsingData.json",
+        "support": {
+            "chrome": {
+                "version_added": true
+            },
+            "edge": {
+                "version_added": "79"
+            },
+            "firefox": {
+                "version_added": "53"
+            },
+            "firefox_android": {
+                "version_added": "53"
+            },
+            "opera": {
+                "version_added": true
+            },
+            "safari": {
+                "version_added": false
+            },
+            "safari_ios": {
+                "version_added": false
+            },
+            "thunderbird": {
+                "version_added": "53"
+            }
+        }
+    },
+    "remove": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/remove",
+            "source_file": "webextensions/api/browsingData.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "notes": "Specifying <code>dataTypes.history</code> will also remove download history and service workers.",
+                    "version_added": "53"
+                },
+                "firefox_android": [
+                    {
+                        "notes": "Specifying <code>dataTypes.history</code> will also remove download history and service workers.",
+                        "version_added": "85"
+                    },
+                    {
+                        "notes": "Specifying <code>dataTypes.history</code> will also remove download history and service workers.",
+                        "version_added": "57",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    }
+                ],
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "53"
+                }
+            }
+        }
+    },
+    "removeCache": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeCache",
+            "source_file": "webextensions/api/browsingData.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "notes": "<code>removalOptions.since</code> is not supported.",
+                    "version_added": "53"
+                },
+                "firefox_android": [
+                    {
+                        "notes": "<code>removalOptions.since</code> is not supported.",
+                        "version_added": "85"
+                    },
+                    {
+                        "notes": "<code>removalOptions.since</code> is not supported.",
+                        "version_added": "57",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    }
+                ],
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "53"
+                }
+            }
+        }
+    },
+    "removeCookies": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeCookies",
+            "source_file": "webextensions/api/browsingData.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "53"
+                },
+                "firefox_android": [
+                    {
+                        "version_added": "85"
+                    },
+                    {
+                        "version_added": "56",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    }
+                ],
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "53"
+                }
+            }
+        }
+    },
+    "removeDownloads": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeDownloads",
+            "source_file": "webextensions/api/browsingData.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "53"
+                },
+                "firefox_android": {
+                    "version_added": "57",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "53"
+                }
+            }
+        }
+    },
+    "removeFormData": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeFormData",
+            "source_file": "webextensions/api/browsingData.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "53"
+                },
+                "firefox_android": {
+                    "version_added": "57",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "53"
+                }
+            }
+        }
+    },
+    "removeHistory": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeHistory",
+            "source_file": "webextensions/api/browsingData.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "notes": "This function also removes download history and service workers.",
+                    "version_added": "53"
+                },
+                "firefox_android": {
+                    "version_added": "85"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "53"
+                }
+            }
+        }
+    },
+    "removeLocalStorage": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeLocalStorage",
+            "source_file": "webextensions/api/browsingData.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "notes": "<code>removalOptions.since</code> is not supported.",
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "notes": "<code>removalOptions.since</code> is not supported.",
+                    "version_added": "85"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "57"
+                }
+            }
+        },
+        "removalOptions": {
+            "hostnames": {
+                "__compat": {
+                    "source_file": "webextensions/api/browsingData.json",
+                    "support": {
+                        "chrome": {
+                            "version_added": false
+                        },
+                        "edge": {
+                            "version_added": false
+                        },
+                        "firefox": {
+                            "version_added": "58"
+                        },
+                        "firefox_android": {
+                            "version_added": "85"
+                        },
+                        "opera": {
+                            "version_added": false
+                        },
+                        "safari": {
+                            "version_added": false
+                        },
+                        "safari_ios": {
+                            "version_added": false
+                        },
+                        "thunderbird": {
+                            "version_added": "58"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "removePasswords": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removePasswords",
+            "source_file": "webextensions/api/browsingData.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "53"
+                },
+                "firefox_android": {
+                    "version_added": "85"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "53"
+                }
+            }
+        }
+    },
+    "removePluginData": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removePluginData",
+            "source_file": "webextensions/api/browsingData.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "53"
+                },
+                "firefox_android": {
+                    "version_added": "85"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "53"
+                }
+            }
+        }
+    },
+    "settings": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/settings",
+            "source_file": "webextensions/api/browsingData.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "53"
+                },
+                "firefox_android": [
+                    {
+                        "version_added": "85"
+                    },
+                    {
+                        "version_added": "56",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    }
+                ],
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "53"
+                }
+            }
+        }
+    }
+}

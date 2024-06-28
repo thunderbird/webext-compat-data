@@ -1,0 +1,706 @@
+{
+    "Device": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        }
+    },
+    "Filter": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/Filter",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "maxResults": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "MAX_SESSION_RESULTS": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/MAX_SESSION_RESULTS",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        }
+    },
+    "Session": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/Session",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "notes": "'Tab' objects in Sessions don't contain the 'url', 'title', or 'favIconUrl' properties.",
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "lastModified": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "tab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "window": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions",
+        "source_file": "webextensions/api/sessions.json",
+        "support": {
+            "chrome": {
+                "version_added": true
+            },
+            "edge": {
+                "version_added": "79"
+            },
+            "firefox": {
+                "version_added": "52"
+            },
+            "firefox_android": {
+                "version_added": false
+            },
+            "opera": {
+                "version_added": true
+            },
+            "safari": {
+                "version_added": false
+            },
+            "safari_ios": {
+                "version_added": false
+            },
+            "thunderbird": {
+                "version_added": "52"
+            }
+        }
+    },
+    "forgetClosedTab": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/forgetClosedTab",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "sessionId": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "windowId": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "forgetClosedWindow": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/forgetClosedWindow",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "55"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "sessionId": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "getDevices": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        }
+    },
+    "getRecentlyClosed": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/getRecentlyClosed",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "filter": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "getTabValue": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/getTabValue",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "57"
+                }
+            }
+        },
+        "key": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            }
+        },
+        "tabId": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            }
+        }
+    },
+    "getWindowValue": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/getWindowValue",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "key": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "windowId": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "onChanged": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/onChanged",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "53"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        }
+    },
+    "removeTabValue": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/removeTabValue",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "57"
+                }
+            }
+        },
+        "key": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            }
+        },
+        "tabId": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            }
+        }
+    },
+    "removeWindowValue": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/removeWindowValue",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "key": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "windowId": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "restore": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/restore",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "52"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "sessionId": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "setTabValue": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/setTabValue",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "57"
+                }
+            }
+        },
+        "key": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            }
+        },
+        "tabId": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            }
+        },
+        "value": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            }
+        }
+    },
+    "setWindowValue": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions/setWindowValue",
+            "source_file": "webextensions/api/sessions.json",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "key": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "value": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "windowId": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    }
+}

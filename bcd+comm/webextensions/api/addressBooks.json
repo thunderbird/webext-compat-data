@@ -1,0 +1,117 @@
+{
+    "AddressBookNode": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "NodeType": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "__compat": {
+        "support": {
+            "thunderbird": {
+                "version_added": true
+            }
+        }
+    },
+    "closeUI": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "create": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "delete": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "get": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "list": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "onCreated": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "onDeleted": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "onUpdated": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "openUI": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "update": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    }
+}

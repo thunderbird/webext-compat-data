@@ -1,0 +1,360 @@
+{
+    "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/find",
+        "source_file": "webextensions/api/find.json",
+        "support": {
+            "chrome": {
+                "version_added": false
+            },
+            "edge": {
+                "version_added": false
+            },
+            "firefox": {
+                "version_added": "57"
+            },
+            "firefox_android": {
+                "version_added": false
+            },
+            "opera": {
+                "version_added": false
+            },
+            "safari": {
+                "version_added": false
+            },
+            "safari_ios": {
+                "version_added": false
+            },
+            "thunderbird": {
+                "version_added": false
+            }
+        }
+    },
+    "find": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/find/find",
+            "source_file": "webextensions/api/find.json",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "options": {
+            "__compat": {
+                "source_file": "webextensions/api/find.json",
+                "support": {
+                    "chrome": {
+                        "version_added": false
+                    },
+                    "edge": {
+                        "version_added": false
+                    },
+                    "firefox": {
+                        "version_added": "57"
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": false
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    }
+                }
+            },
+            "caseSensitive": {
+                "__compat": {
+                    "source_file": "webextensions/api/find.json",
+                    "support": {
+                        "chrome": {
+                            "version_added": false
+                        },
+                        "edge": {
+                            "version_added": false
+                        },
+                        "firefox": {
+                            "version_added": "57"
+                        },
+                        "firefox_android": {
+                            "version_added": false
+                        },
+                        "opera": {
+                            "version_added": false
+                        },
+                        "safari": {
+                            "version_added": false
+                        },
+                        "safari_ios": {
+                            "version_added": false
+                        }
+                    }
+                }
+            },
+            "entireWord": {
+                "__compat": {
+                    "source_file": "webextensions/api/find.json",
+                    "support": {
+                        "chrome": {
+                            "version_added": false
+                        },
+                        "edge": {
+                            "version_added": false
+                        },
+                        "firefox": {
+                            "version_added": "57"
+                        },
+                        "firefox_android": {
+                            "version_added": false
+                        },
+                        "opera": {
+                            "version_added": false
+                        },
+                        "safari": {
+                            "version_added": false
+                        },
+                        "safari_ios": {
+                            "version_added": false
+                        }
+                    }
+                }
+            },
+            "includeRangeData": {
+                "__compat": {
+                    "source_file": "webextensions/api/find.json",
+                    "support": {
+                        "chrome": {
+                            "version_added": false
+                        },
+                        "edge": {
+                            "version_added": false
+                        },
+                        "firefox": {
+                            "version_added": "57"
+                        },
+                        "firefox_android": {
+                            "version_added": false
+                        },
+                        "opera": {
+                            "version_added": false
+                        },
+                        "safari": {
+                            "version_added": false
+                        },
+                        "safari_ios": {
+                            "version_added": false
+                        }
+                    }
+                }
+            },
+            "includeRectData": {
+                "__compat": {
+                    "source_file": "webextensions/api/find.json",
+                    "support": {
+                        "chrome": {
+                            "version_added": false
+                        },
+                        "edge": {
+                            "version_added": false
+                        },
+                        "firefox": {
+                            "version_added": "57"
+                        },
+                        "firefox_android": {
+                            "version_added": false
+                        },
+                        "opera": {
+                            "version_added": false
+                        },
+                        "safari": {
+                            "version_added": false
+                        },
+                        "safari_ios": {
+                            "version_added": false
+                        }
+                    }
+                }
+            },
+            "matchDiacritics": {
+                "__compat": {
+                    "source_file": "webextensions/api/find.json",
+                    "support": {
+                        "chrome": {
+                            "version_added": false
+                        },
+                        "edge": {
+                            "version_added": false
+                        },
+                        "firefox": {
+                            "version_added": "111"
+                        },
+                        "firefox_android": {
+                            "version_added": false
+                        },
+                        "opera": {
+                            "version_added": false
+                        },
+                        "safari": {
+                            "version_added": false
+                        },
+                        "safari_ios": {
+                            "version_added": false
+                        }
+                    }
+                }
+            },
+            "tabId": {
+                "__compat": {
+                    "source_file": "webextensions/api/find.json",
+                    "support": {
+                        "chrome": {
+                            "version_added": false
+                        },
+                        "edge": {
+                            "version_added": false
+                        },
+                        "firefox": {
+                            "version_added": "57"
+                        },
+                        "firefox_android": {
+                            "version_added": false
+                        },
+                        "opera": {
+                            "version_added": false
+                        },
+                        "safari": {
+                            "version_added": false
+                        },
+                        "safari_ios": {
+                            "version_added": false
+                        }
+                    }
+                }
+            }
+        },
+        "params": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "queryphrase": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "highlightResults": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/find/highlightResults",
+            "source_file": "webextensions/api/find.json",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "params": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "removeHighlighting": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/find/removeHighlighting",
+            "source_file": "webextensions/api/find.json",
+            "support": {
+                "chrome": {
+                    "version_added": false
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "57"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        },
+        "tabId": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "ColorArray": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "Space": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "SpaceButtonProperties_MV2": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "SpaceButtonProperties_MV3": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "__compat": {
+        "support": {
+            "thunderbird": {
+                "version_added": true
+            }
+        }
+    },
+    "create": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "get": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "open": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "query": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "remove": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "update": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    }
+}

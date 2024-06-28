@@ -1,0 +1,36 @@
+{
+    "RegisteredMessageDisplayScript": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "RegisteredMessageDisplayScriptOptions": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "__compat": {
+        "support": {
+            "thunderbird": {
+                "version_added": true
+            }
+        }
+    },
+    "register": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    }
+}

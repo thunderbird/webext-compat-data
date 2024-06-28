@@ -1,0 +1,45 @@
+{
+    "ParsedMailbox": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "__compat": {
+        "support": {
+            "thunderbird": {
+                "version_added": true
+            }
+        }
+    },
+    "convertToPlainText": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "formatFileSize": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "parseMailboxString": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    }
+}

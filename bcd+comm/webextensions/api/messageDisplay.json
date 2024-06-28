@@ -1,0 +1,90 @@
+{
+    "__compat": {
+        "support": {
+            "thunderbird": {
+                "version_added": true
+            }
+        }
+    },
+    "getDisplayedMessage": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "getDisplayedMessages": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    },
+    "onMessageDisplayed": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        },
+        "tab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            },
+            "selected": {
+                "__compat": {
+                    "support": {
+                        "thunderbird": {
+                            "version_added": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "onMessagesDisplayed": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        },
+        "tab": {
+            "__compat": {
+                "support": {
+                    "thunderbird": {
+                        "version_added": true
+                    }
+                }
+            },
+            "selected": {
+                "__compat": {
+                    "support": {
+                        "thunderbird": {
+                            "version_added": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "open": {
+        "__compat": {
+            "support": {
+                "thunderbird": {
+                    "version_added": true
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2752 @@
+{
+    "BooleanDelta": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/BooleanDelta",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "47"
+                }
+            }
+        }
+    },
+    "DangerType": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DangerType",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "47"
+                }
+            }
+        }
+    },
+    "DoubleDelta": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DoubleDelta",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "47"
+                }
+            }
+        }
+    },
+    "DownloadItem": {
+        "byExtensionId": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "byExtensionName": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "bytesReceived": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "canResume": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "cookieStoreId": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": false
+                    },
+                    "edge": {
+                        "version_added": false
+                    },
+                    "firefox": {
+                        "version_added": "92"
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": false
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "92"
+                    }
+                }
+            }
+        },
+        "danger": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "notes": "Always given as 'safe'.",
+                        "version_added": false
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "endTime": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": false
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "error": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "estimatedEndTime": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "57"
+                    },
+                    "firefox_android": {
+                        "version_added": "57",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "57"
+                    }
+                }
+            }
+        },
+        "exists": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "fileSize": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "filename": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "id": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "incognito": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "mime": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "paused": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "referrer": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "startTime": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "state": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "totalBytes": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "url": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        }
+    },
+    "DownloadQuery": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadQuery",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "47"
+                }
+            }
+        },
+        "bytesReceived": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "cookieStoreId": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": false
+                    },
+                    "edge": {
+                        "version_added": false
+                    },
+                    "firefox": {
+                        "version_added": "92"
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": false
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "92"
+                    }
+                }
+            }
+        },
+        "danger": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "endTime": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": false
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        },
+        "endedAfter": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "notes": "The parameter is ignored.",
+                        "partial_implementation": true,
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "endedBefore": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "notes": "The parameter is ignored.",
+                        "partial_implementation": true,
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "error": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "exists": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "fileSize": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "filename": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "filenameRegex": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "id": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "limit": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "mime": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "orderBy": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "paused": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "query": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "startTime": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "startedAfter": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "startedBefore": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "state": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "totalBytes": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "totalBytesGreater": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "totalBytesLess": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "url": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "urlRegex": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        }
+    },
+    "DownloadTime": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadTime",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "47"
+                }
+            }
+        }
+    },
+    "FilenameConflictAction": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/FilenameConflictAction",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "47"
+                }
+            }
+        },
+        "prompt": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": false
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": false
+                    }
+                }
+            }
+        }
+    },
+    "InterruptReason": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/InterruptReason",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "47"
+                }
+            }
+        }
+    },
+    "State": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/State",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "47"
+                }
+            }
+        }
+    },
+    "StringDelta": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/StringDelta",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "47"
+                }
+            }
+        }
+    },
+    "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads",
+        "source_file": "webextensions/api/downloads.json",
+        "support": {
+            "chrome": {
+                "version_added": true
+            },
+            "edge": {
+                "version_added": "79"
+            },
+            "firefox": {
+                "version_added": "47"
+            },
+            "firefox_android": {
+                "version_added": "48",
+                "version_last": "68",
+                "version_removed": "79"
+            },
+            "opera": {
+                "version_added": true
+            },
+            "safari": {
+                "version_added": false
+            },
+            "safari_ios": {
+                "version_added": false
+            },
+            "thunderbird": {
+                "version_added": "47"
+            }
+        }
+    },
+    "acceptDanger": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/acceptDanger",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        }
+    },
+    "cancel": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/cancel",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "48"
+                }
+            }
+        }
+    },
+    "download": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/download",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "47"
+                }
+            }
+        },
+        "allowHttpErrors": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": false
+                    },
+                    "edge": {
+                        "version_added": false
+                    },
+                    "firefox": {
+                        "version_added": "71"
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": false
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "71"
+                    }
+                }
+            }
+        },
+        "body": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "52"
+                    },
+                    "firefox_android": {
+                        "version_added": "52",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "52"
+                    }
+                }
+            }
+        },
+        "conflictAction": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "cookieStoreId": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": false
+                    },
+                    "edge": {
+                        "version_added": false
+                    },
+                    "firefox": {
+                        "version_added": "92"
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": false
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "92"
+                    }
+                }
+            }
+        },
+        "filename": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "headers": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "notes": "<code>Referer</code> headers supported from version 70.",
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "incognito": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": false
+                    },
+                    "edge": {
+                        "version_added": false
+                    },
+                    "firefox": {
+                        "version_added": "57"
+                    },
+                    "firefox_android": {
+                        "version_added": "57",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": false
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "57"
+                    }
+                }
+            }
+        },
+        "method": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "notes": "POST is supported from version 52.",
+                        "version_added": "47"
+                    },
+                    "firefox_android": {
+                        "notes": "POST is supported from version 52.",
+                        "version_added": "48",
+                        "version_last": "68",
+                        "version_removed": "79"
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "47"
+                    }
+                }
+            }
+        },
+        "saveAs": {
+            "__compat": {
+                "source_file": "webextensions/api/downloads.json",
+                "support": {
+                    "chrome": {
+                        "version_added": true
+                    },
+                    "edge": {
+                        "version_added": "79"
+                    },
+                    "firefox": {
+                        "notes": "Before version 58, if this option was omitted, Firefox would never show the file chooser, regardless of the value of the browser's preference.",
+                        "version_added": "52"
+                    },
+                    "firefox_android": {
+                        "version_added": false
+                    },
+                    "opera": {
+                        "version_added": true
+                    },
+                    "safari": {
+                        "version_added": false
+                    },
+                    "safari_ios": {
+                        "version_added": false
+                    },
+                    "thunderbird": {
+                        "version_added": "52"
+                    }
+                }
+            }
+        }
+    },
+    "erase": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/erase",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "48"
+                }
+            }
+        }
+    },
+    "getFileIcon": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/getFileIcon",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "48"
+                }
+            }
+        }
+    },
+    "onChanged": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onChanged",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "47"
+                }
+            }
+        }
+    },
+    "onCreated": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onCreated",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "48"
+                }
+            }
+        }
+    },
+    "onErased": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onErased",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "48"
+                }
+            }
+        }
+    },
+    "open": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/open",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "48"
+                }
+            }
+        }
+    },
+    "pause": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/pause",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "48"
+                }
+            }
+        }
+    },
+    "removeFile": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/removeFile",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "48"
+                }
+            }
+        }
+    },
+    "resume": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/resume",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "48"
+                }
+            }
+        }
+    },
+    "search": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/search",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "47"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "47"
+                }
+            }
+        }
+    },
+    "setShelfEnabled": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/setShelfEnabled",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": false
+                }
+            }
+        }
+    },
+    "show": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/show",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "48"
+                }
+            }
+        }
+    },
+    "showDefaultFolder": {
+        "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads/showDefaultFolder",
+            "source_file": "webextensions/api/downloads.json",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "79"
+                },
+                "firefox": {
+                    "version_added": "48"
+                },
+                "firefox_android": {
+                    "version_added": "48",
+                    "version_last": "68",
+                    "version_removed": "79"
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "thunderbird": {
+                    "version_added": "48"
+                }
+            }
+        }
+    }
+}
