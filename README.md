@@ -6,9 +6,9 @@ term goal is to add this data to the [browser-compat-data](https://github.com/md
 repository (a.k.a. BCD).
 
 The following files are provided:
- - `bcd/*` : The webextension data from BCD, but with additional entries for Thunderbird
+ - `bcd/*` : The webextension data from BCD, but with additional entries for Thunderbird.
  - `bcd+comm/*`: The webextension data from BCD, but with additional entries for
-    Thunderbird, including Thunderbirds custom APIs
+    Thunderbird, including Thunderbirds custom APIs.
  - `thunderbird_compat_data.json`: A single `JSON` file with compatibility information
     for all APIs supported by Thunderbird, excluding all other vendors.
 
