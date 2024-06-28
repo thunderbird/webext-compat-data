@@ -516,8 +516,8 @@ function overrideBrowserCompatData(
         !(
           !override ||
           typeof override.version_added === "undefined" ||
-          tcd.version_added === override.version_added ||
-          (typeof tcd.version_added === "string" &&
+          tcd?.version_added === override.version_added ||
+          (typeof tcd?.version_added === "string" &&
             override.version_added === true)
         )
       ) {
