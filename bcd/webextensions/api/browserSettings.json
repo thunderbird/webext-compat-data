@@ -120,7 +120,7 @@
                     "version_added": false
                 },
                 "thunderbird": {
-                    "version_added": "61"
+                    "version_added": false
                 }
             }
         }
@@ -250,7 +250,7 @@
                     "version_added": false
                 },
                 "thunderbird": {
-                    "version_added": "57"
+                    "version_added": false
                 }
             }
         }
@@ -314,7 +314,7 @@
                     "version_added": false
                 },
                 "thunderbird": {
-                    "version_added": "57"
+                    "version_added": false
                 }
             }
         }
@@ -347,7 +347,7 @@
                     "version_added": false
                 },
                 "thunderbird": {
-                    "version_added": "61"
+                    "version_added": false
                 }
             }
         }
@@ -379,7 +379,7 @@
                     "version_added": false
                 },
                 "thunderbird": {
-                    "version_added": "59"
+                    "version_added": false
                 }
             }
         }
@@ -411,7 +411,7 @@
                     "version_added": false
                 },
                 "thunderbird": {
-                    "version_added": "59"
+                    "version_added": false
                 }
             }
         }
@@ -443,7 +443,7 @@
                     "version_added": false
                 },
                 "thunderbird": {
-                    "version_added": "61"
+                    "version_added": false
                 }
             }
         }
@@ -539,7 +539,7 @@
                     "version_added": false
                 },
                 "thunderbird": {
-                    "version_added": "72"
+                    "version_added": false
                 }
             }
         }
@@ -667,7 +667,7 @@
                     "version_added": false
                 },
                 "thunderbird": {
-                    "version_added": "75"
+                    "version_added": false
                 }
             }
         }
