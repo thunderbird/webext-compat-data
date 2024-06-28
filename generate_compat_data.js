@@ -598,7 +598,9 @@ function reduceBrowserCompatData(tcdEntry, parentKey, path = "") {
   // if no other vendors are listed.
   Object.keys(tcdEntry).forEach(k => {
     if (k != "__compat") {
-      const childCompatStrings = [...reduceBrowserCompatData(tcdEntry[k], k, `${path}.${k}`)];
+      const childCompatStrings = [
+        ...reduceBrowserCompatData(tcdEntry[k], k, `${path}.${k}`),
+      ];
       // Add the childs compat data to the global parent compat data.
       childCompatStrings.forEach(e => parentCompatStrings.add(e));
       // Compare this child with parent directly.
