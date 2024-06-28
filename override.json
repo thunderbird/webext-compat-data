@@ -1,0 +1,456 @@
+{
+  "webextensions": {
+    "api": {
+      "browserSettings": {
+        "closeTabsByDoubleClick": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "homepageOverride": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "newTabPageOverride": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "newTabPosition": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "openBookmarksInNewTabs": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "openSearchResultsInNewTabs": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "openUrlbarResultsInNewTabs": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "tlsVersionRestrictionConfig": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "zoomSiteSpecific": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        }
+      },
+      "tabs": {
+        "create": {
+          "discarded": {
+            "__compat": {
+              "support": {
+                "thunderbird": {
+                  "version_added": false
+                }
+              }
+            }
+          },
+          "muted": {
+            "__compat": {
+              "support": {
+                "thunderbird": {
+                  "version_added": false
+                }
+              }
+            }
+          },
+          "openInReaderMode": {
+            "__compat": {
+              "support": {
+                "thunderbird": {
+                  "version_added": false
+                }
+              }
+            }
+          },
+          "openerTabId": {
+            "__compat": {
+              "support": {
+                "thunderbird": {
+                  "version_added": false
+                }
+              }
+            }
+          },
+          "pinned": {
+            "__compat": {
+              "support": {
+                "thunderbird": {
+                  "version_added": false
+                }
+              }
+            }
+          },
+          "title": {
+            "__compat": {
+              "support": {
+                "thunderbird": {
+                  "version_added": false
+                }
+              }
+            }
+          }
+        },
+        "update": {
+          "autoDiscardable_value": {
+            "__compat": {
+              "support": {
+                "thunderbird": {
+                  "version_added": false
+                }
+              }
+            }
+          },
+          "highlighted_value": {
+            "__compat": {
+              "support": {
+                "thunderbird": {
+                  "version_added": false
+                }
+              }
+            }
+          },
+          "loadReplace_value": {
+            "__compat": {
+              "support": {
+                "thunderbird": {
+                  "version_added": false
+                }
+              }
+            }
+          },
+          "muted_value": {
+            "__compat": {
+              "support": {
+                "thunderbird": {
+                  "version_added": false
+                }
+              }
+            }
+          },
+          "openerTabId_value": {
+            "__compat": {
+              "support": {
+                "thunderbird": {
+                  "version_added": false
+                }
+              }
+            }
+          },
+          "pinned_value": {
+            "__compat": {
+              "support": {
+                "thunderbird": {
+                  "version_added": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "manifest": {
+      "chrome_settings_overrides": {
+        "homepage": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        }
+      },
+      "chrome_url_overrides": {
+        "__compat": {
+          "support": {
+            "thunderbird": {
+              "version_added": false
+            }
+          }
+        }
+      },
+      "commands": {
+        "F1-F12": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": "unknown"
+              }
+            }
+          }
+        },
+        "MediaNextTrack": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": "unknown"
+              }
+            }
+          }
+        },
+        "MediaPlayPause": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": "unknown"
+              }
+            }
+          }
+        },
+        "MediaPrevTrack": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": "unknown"
+              }
+            }
+          }
+        },
+        "MediaStop": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": "unknown"
+              }
+            }
+          }
+        },
+        "MoreSecondaryModifiers": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": "unknown"
+              }
+            }
+          }
+        },
+        "_execute_page_action": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "_execute_sidebar_action": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        }
+      },
+      "devtools_page": {
+        "__compat": {
+          "support": {
+            "thunderbird": {
+              "version_added": false
+            }
+          }
+        }
+      },
+      "incognito": {
+        "__compat": {
+          "support": {
+            "thunderbird": {
+              "note": "The manifest key is available, but does not have an effect",
+              "version_added": false
+            }
+          }
+        }
+      },
+      "omnibox": {
+        "__compat": {
+          "support": {
+            "thunderbird": {
+              "version_added": false
+            }
+          }
+        }
+      },
+      "page_action": {
+        "__compat": {
+          "support": {
+            "thunderbird": {
+              "version_added": false
+            }
+          }
+        }
+      },
+      "permissions": {
+        "activeTab": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "bookmarks": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "captivePortal": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "contextMenus": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "devtools": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "find": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "history": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "search": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "sessions": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "note": "Permission not needed to use Thunderbird's session API",
+                "version_added": false
+              }
+            }
+          }
+        },
+        "tabHide": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "topSites": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        },
+        "webRequestFilterResponse_serviceWorkerScript": {
+          "__compat": {
+            "support": {
+              "thunderbird": {
+                "version_added": false
+              }
+            }
+          }
+        }
+      },
+      "sidebar_action": {
+        "__compat": {
+          "support": {
+            "thunderbird": {
+              "version_added": false
+            }
+          }
+        }
+      }
+    }
+  }
+}
