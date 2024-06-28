@@ -335,6 +335,15 @@ async function main() {
     thunderbird_compat_data
   );
 
+  // Write Browser Compat Data.
+  // Note: This includes only the webextension part, to reduce data size stored
+  // in the github repository. This file will not be officially provided, once
+  // the npm package is available. The npm package will generate the full file.
+  await writePrettyJSONFile(
+    "browser_compat_data.json",
+    { webextensions: browser_compat_data.webextensions }
+  );
+
   // Write Browser Compat Data (single file per namespace).
   const apiDirectory = COMM
     ? path.join("bcd+comm", "webextensions", "api")
