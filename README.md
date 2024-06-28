@@ -52,13 +52,13 @@ Usage
 =====
 
 ```
-    node generate_compat_data.js <options>
+node generate_compat_data.js <options>
 ```
     
 Required options
 ================
 ```
-  --source=path             - Path to a local checkout of a mozilla source
+   --source=path            - Path to a local checkout of a mozilla source
                               repository with a matching /comm directory.
 ```
 
