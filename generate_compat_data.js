@@ -329,19 +329,11 @@ async function main() {
     "webextensions"
   );
 
-  // Write Thunderbird Compat Data.
-  await writePrettyJSONFile(
-    "thunderbird_compat_data.json",
-    thunderbird_compat_data
-  );
-
-  // Write Browser Compat Data.
-  // Note: This includes only the webextension part, to reduce data size stored
-  // in the github repository. This file will not be officially provided, once
-  // the npm package is available. The npm package will generate the full file.
+  // Write Browser Compat Data. This is a very large file (~40MB) and should not
+  // be committed to the github repository.
   await writePrettyJSONFile(
     "browser_compat_data.json",
-    { webextensions: browser_compat_data.webextensions }
+    browser_compat_data
   );
 
   // Write Browser Compat Data (single file per namespace).
@@ -463,6 +455,9 @@ async function writePrettyJSONFile(path, json) {
 // TCD data.
 function cloneBrowserCompatData(bcdEntry, tcdEntry) {
   if (typeof bcdEntry !== "object" || !bcdEntry) {
+    console.error(
+      `Error: Should not find an non-object entry in BCD data: ${bcdEntry}`
+    );
     return;
   }
   if (Array.isArray(bcdEntry)) {
@@ -493,6 +488,9 @@ function overrideBrowserCompatData(
   parent = "webextensions"
 ) {
   if (typeof overrideEntry !== "object" || !overrideEntry) {
+    console.error(
+      `Error: Should not find an non-object entry in BCD data: ${overrideEntry}`
+    );
     return undefined;
   }
   if (Array.isArray(overrideEntry)) {
@@ -1044,7 +1042,6 @@ function updateCompatData(
     }
 
     // Add the current level entry, if missing.
-    // TODO: Check dashed notation.
     if (!entry[itemName]) {
       if (VERBOSITY & 4) {
         console.log(`  adding: ${expected} : ${curr_namespace_entry}`);
@@ -1084,7 +1081,7 @@ function updateCompatData(
     }
 
     if (namespace == "manifest") {
-      // Ignore manifest entries.
+      // TODO: Handle manifest entries.
       return;
     }
     if (!handleEntry(tcd.webextensions.api, namespace)) {

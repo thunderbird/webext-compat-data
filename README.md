@@ -9,8 +9,6 @@ The following files are provided:
  - `bcd/*` : The webextension data from BCD, but with additional entries for Thunderbird.
  - `bcd+comm/*`: The webextension data from BCD, but with additional entries for
     Thunderbird, including Thunderbirds custom APIs.
- - `thunderbird_compat_data.json`: A single `JSON` file with compatibility information
-    for all APIs supported by Thunderbird, excluding all other vendors.
 
 Work in progress - missing features
 ===================================
