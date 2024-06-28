@@ -1,0 +1,9 @@
+{
+    "__compat": {
+        "support": {
+            "thunderbird": {
+                "version_added": true
+            }
+        }
+    }
+}

@@ -540,12 +540,11 @@ function overrideBrowserCompatData(
         modifiedEntry[k] = childMod;
       }
     } else {
-      // Overrides may only correct existing entries.
-      console.error(
-        `Error: Override for not existing ${parent}.${k} : ${JSON.stringify(
-          overrideEntry[k]
-        )}`
-      );
+      tcdEntry[k] = overrideEntry[k];
+      if (!modifiedEntry) {
+        modifiedEntry = {};
+      }
+      modifiedEntry[k] = overrideEntry[k];
     }
   });
 

@@ -83,6 +83,15 @@
             }
           }
         }
+      },
+      "experiments": {
+        "__compat": {
+          "support": {
+            "thunderbird": {
+              "version_added": true
+            }
+          }
+        }
       }
     },
     "manifest": {
