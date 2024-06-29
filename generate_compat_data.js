@@ -104,7 +104,7 @@ Required options:
                               repository with a matching /comm directory.
 
 Optional options:
-   --no-comm                - Do not add Thunderbird-only-APIs (MailExtensions APIs).
+   --no-mailextensions      - Do not add (Thunderbird-only) MailExtensions APIs.
    --no-minimize            - Do not minimize compat data by excluding properties
                               which have the same compat data as their parent
                               parameter.
@@ -123,7 +123,7 @@ Optional options:
 const args = yargs.argv;
 const VERBOSITY = args.verbosity ? parseInt(args.verbosity, 10) : 0;
 const MINIMIZE = args.minimize ?? true;
-const COMM = args.comm ?? true;
+const INCLUDE_MAILEXTENSIONS = args.mailextensions ?? true;
 
 if (!args.source) {
   console.log(HELP_SCREEN);
@@ -277,7 +277,7 @@ async function main() {
 
   // Check Thunderbird's own data, redo the re-implemented namespaces as well,
   // to check for added elements.
-  if (COMM) {
+  if (INCLUDE_MAILEXTENSIONS) {
     for (const namespaceObj of mail_namespaces) {
       const entries = mail_entries.get(namespaceObj.namespace);
       const isReimplemented =
@@ -329,17 +329,18 @@ async function main() {
     "webextensions"
   );
 
-  // Write Browser Compat Data. This is a very large file (~40MB) and should not
-  // be committed to the github repository.
+  // Write modified webextension BCD.
   await writePrettyJSONFile(
-    "browser_compat_data.json",
-    browser_compat_data
+    INCLUDE_MAILEXTENSIONS 
+      ? "thunderbird_mailextensions.json"
+      : "thunderbird_webextensions.json",
+    { webextensions: browser_compat_data.webextensions }
   );
 
-  // Write Browser Compat Data (single file per namespace).
-  const apiDirectory = COMM
-    ? path.join("bcd+comm", "webextensions", "api")
-    : path.join("bcd", "webextensions", "api");
+  // Write modified webextension BCD (single file per namespace).
+  const apiDirectory = INCLUDE_MAILEXTENSIONS
+    ? path.join("thunderbird_mailextensions", "api")
+    : path.join("thunderbird_webextensions", "api");
   if (!fs.existsSync(apiDirectory)) {
     fs.mkdirSync(apiDirectory, { recursive: true });
   }

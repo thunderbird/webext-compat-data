@@ -6,9 +6,14 @@ term goal is to add this data to the [browser-compat-data](https://github.com/md
 repository (a.k.a. BCD).
 
 The following files are provided:
- - `bcd/*` : The webextension data from BCD, but with additional entries for Thunderbird.
- - `bcd+comm/*`: The webextension data from BCD, but with additional entries for
-    Thunderbird, including Thunderbirds custom APIs.
+ - `thunderbird_mailextensions.json` : The webextension data from BCD, but with
+    additional entries for Thunderbird, including Thunderbird's MailExtension APIs.
+ - `thunderbird_compat_data.js` : A module to load the full BCD including the
+    information from `thunderbird_mailextensions.json`. It is a drop-in replacement
+    for the BCD module:
+    ```
+    const bcd = require("./thunderbird_compat_data.js");
+    ```  
 
 Work in progress - missing features
 ===================================

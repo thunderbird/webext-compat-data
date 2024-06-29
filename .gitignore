@@ -1,2 +1,3 @@
 node_modules
-browser_compat_data.json
+thunderbird_mailextensions/
+thunderbird_webextensions/
