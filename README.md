@@ -68,7 +68,7 @@ Required options
 Optional options
 ================
 ```
-   --no-comm                - Do not add Thunderbird-only-APIs (MailExtensions APIs).
+   --no-mailextensions      - Do not add (Thunderbird-only) MailExtensions APIs.
    --no-minimize            - Do not minimize compat data by excluding properties
                               which have the same compat data as their parent
                               parameter.
