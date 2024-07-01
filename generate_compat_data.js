@@ -7,21 +7,24 @@
  * Version: 1.0 (28.06.2024)
  *
  * Features:
- *  [x] clone the existing browser-compat-data as a starting point
- *  [x] read and parse all schema files
- *  [x] handle $imports and $refs (recursive refs are ignored)
- *  [x] update compat data based on the schema files, trust re-used firefox
- *      schemas as fully supported
- *  [x] use an override file to manually change/enrich compat data
- *  [x] auto-remove sub-entries if they all have the same compat data as the parent
- *  [x] handle unsupported
+ *  - clone the existing browser-compat-data as a starting point
+ *  - read and parse all schema files
+ *  - handle $imports and $refs (recursive refs are ignored)
+ *  - update compat data based on the schema files, trust re-used firefox
+ *    schemas as fully supported
+ *  - use an override file to manually change/enrich compat data
+ *  - auto-remove sub-entries if they all have the same compat data as the parent
+ *  - handle unsupported
+ *  - handle different notations and log all unexpected entries
+ *
+ * TODO:
+ *  [ ]: Instead of excluding files, add the APIs to the override file, to be
+ *       able to add comments.
+ *  [ ] Programmatically extract the correct version_added value
+ *  [ ] Do not add parents of non-nested properties
  *  [ ] handle deprecated
  *  [ ] handle manifests
- *  [x] handle different notations
- *      [x] log all unexpected entries
- *      [ ] do not add parent for all but nested notation
- *  [ ] Programmatically extract the correct version_added value
- *
+ * 
  * Note: There are 4 different notation for parameter properties:
  *  - flatting (tabs.create(), tabs.executeScript(), https://github.com/mdn/browser-compat-data/blob/7afd5da3bfe0e0f4434585ee75f277d784662caf/webextensions/api/tabs.json#L2002)
  *  - paramName_propName_parameter (browserAction.getBadgeBackgroundColor(), https://github.com/mdn/browser-compat-data/blob/7afd5da3bfe0e0f4434585ee75f277d784662caf/webextensions/api/browserAction.json#L138)
@@ -316,10 +319,8 @@ async function main() {
     );
   }
 
-  const thunderbird_compat_data = sortKeys(tcd);
   const browser_compat_data = sortKeys(mergeObjects(bcd, tcd));
   if (MINIMIZE) {
-    reduceBrowserCompatData(thunderbird_compat_data.webextensions);
     reduceBrowserCompatData(browser_compat_data.webextensions);
   }
 
