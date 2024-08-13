@@ -1,3 +1,6 @@
 node_modules
 thunderbird_mailextensions/
 thunderbird_webextensions/
+
+# Editor specific ignores
+.idea
