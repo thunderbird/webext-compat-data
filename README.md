@@ -55,29 +55,32 @@ We happily accept pull requests to update the override file and the generator sc
 We cannot accept pull requests to modify the generated data itself, since it will
 be overwritten with each execution of the generator script.
 
+Manually generate the data
+==========================
+
 Install needed packages
-=======================
+-----------------------
 
 ```
 npm install
 ```
 
 Usage
-=====
+-----
 
 ```
 node generate_compat_data.js <options>
 ```
     
 Required options
-================
+----------------
 ```
    --source=path            - Path to a local checkout of a mozilla source
                               repository with a matching /comm directory.
 ```
 
 Optional options
-================
+----------------
 ```
    --no-mailextensions      - Do not add (Thunderbird-only) MailExtensions APIs.
    --no-minimize            - Do not minimize compat data by excluding properties
