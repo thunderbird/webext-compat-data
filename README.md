@@ -8,9 +8,13 @@ repository (a.k.a. BCD).
 The following files are provided:
 - `thunderbird_mailextensions.json` : The webextension data from BCD, but with
    additional entries for Thunderbird, including Thunderbird's MailExtension APIs.
-- `thunderbird_compat_data.js` : A module to load the full BCD including the
-   information from `thunderbird_mailextensions.json`. It is a drop-in replacement
-   for the BCD module:
+- `generate_compat_data.js` : The script to generate the additional compat data for
+   Thunderbird.
+
+NPM package
+===========
+
+We provide an npm package, which can be used as a drop-in replacement for the BCD module:
 
 ``` javascript
 // With CommonJS
