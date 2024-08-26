@@ -1,6 +1,6 @@
 {
   "name": "@thunderbirdops/webext-compat-data",
-  "version": "0.1.5",
+  "version": "5.5.46.1",
   "description": "Web-extension Compat Data provides a way to generate and reference web-extension compatibility data in your apps or web-extensions.",
   "main": "thunderbird_compat_data.js",
   "bin": {

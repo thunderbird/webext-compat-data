@@ -2,6 +2,15 @@
     "webextensions": {
         "api": {
             "accounts": {
+                "ExtensionMailAccountType": {
+                    "__compat": {
+                        "support": {
+                            "thunderbird": {
+                                "version_added": true
+                            }
+                        }
+                    }
+                },
                 "MailAccount": {
                     "__compat": {
                         "support": {
@@ -20,7 +29,7 @@
                         }
                     }
                 },
-                "MailAccountType": {
+                "NativeMailAccountType": {
                     "__compat": {
                         "support": {
                             "thunderbird": {
@@ -23139,6 +23148,15 @@
                         }
                     }
                 },
+                "MenuActionCommand": {
+                    "__compat": {
+                        "support": {
+                            "thunderbird": {
+                                "version_added": true
+                            }
+                        }
+                    }
+                },
                 "MenuIconDictionary": {
                     "__compat": {
                         "support": {
@@ -25676,6 +25694,15 @@
             },
             "messages": {
                 "InlineTextPart": {
+                    "__compat": {
+                        "support": {
+                            "thunderbird": {
+                                "version_added": true
+                            }
+                        }
+                    }
+                },
+                "MailBoxHeaderString": {
                     "__compat": {
                         "support": {
                             "thunderbird": {
@@ -34976,6 +35003,15 @@
                 }
             },
             "spaces": {
+                "ButtonProperties": {
+                    "__compat": {
+                        "support": {
+                            "thunderbird": {
+                                "version_added": true
+                            }
+                        }
+                    }
+                },
                 "ColorArray": {
                     "__compat": {
                         "support": {
@@ -34994,16 +35030,7 @@
                         }
                     }
                 },
-                "SpaceButtonProperties_MV2": {
-                    "__compat": {
-                        "support": {
-                            "thunderbird": {
-                                "version_added": true
-                            }
-                        }
-                    }
-                },
-                "SpaceButtonProperties_MV3": {
+                "SpaceButtonProperties": {
                     "__compat": {
                         "support": {
                             "thunderbird": {
