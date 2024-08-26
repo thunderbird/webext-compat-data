@@ -5,16 +5,8 @@ This repository provides the Thunderbird WebExtension compatibility data. The lo
 term goal is to add this data to the [browser-compat-data](https://github.com/mdn/browser-compat-data)
 repository (a.k.a. BCD).
 
-The following files are provided:
-- `thunderbird_mailextensions.json` : The webextension data from BCD, but with
-   additional entries for Thunderbird, including Thunderbird's MailExtension APIs.
-- `generate_compat_data.js` : The script to generate the additional compat data for
-   Thunderbird.
-
-NPM package
-===========
-
-We provide an npm package, which can be used as a drop-in replacement for the BCD module:
+We provide an [npm package](https://www.npmjs.com/package/@thunderbirdops/webext-compat-data), which is sourced by this repository and which can be used as a drop-in
+replacement for the BCD module:
 
 ``` javascript
 // With CommonJS
@@ -31,8 +23,6 @@ Work in progress - missing features
 
 The compatibility data does not yet contain actual version numbers, but mostly just
 `true` or `false` for the `version_added` property. This is being worked on.
-
-We aim to provide this data through an npm package in the future.
 
 The `manifest` data still needs work.
 
