@@ -5,8 +5,8 @@ This repository provides the Thunderbird WebExtension compatibility data. The lo
 term goal is to add this data to the [browser-compat-data](https://github.com/mdn/browser-compat-data)
 repository (a.k.a. BCD).
 
-We provide an [npm package](https://www.npmjs.com/package/@thunderbirdops/webext-compat-data), which is sourced by this repository and which can be used as a drop-in
-replacement for the BCD module:
+We provide an [npm package](https://www.npmjs.com/package/@thunderbirdops/webext-compat-data), which
+is sourced by this repository and which can be used as a drop-in replacement for the BCD module:
 
 ``` javascript
 // With CommonJS
@@ -52,7 +52,7 @@ Install needed packages
 -----------------------
 
 ```
-npm install
+npm install --include=dev
 ```
 
 Usage
